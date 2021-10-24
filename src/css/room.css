@@ -1,0 +1,115 @@
+.camera {
+    margin: 0;
+    padding: 0;
+}
+
+.camera:hover {
+    box-shadow: 0 0 10px #03e9f4, 0 0 15px #03e9f4;
+    transition-delay: 0.1s;
+}
+
+#master {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background: #031321;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+#back a:hover {
+    color: #255784;
+    padding: 30px 20px;
+      background: #03e9f4;
+      box-shadow: 0 0 10px #03e9f4, 0 0 40px #03e9f4, 0 0 80px #03e9f4;
+      transition-delay: 0.1s;
+  }
+
+#master a {
+    position: relative;
+    display: inline-block;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px; 
+  }
+
+* a {
+    cursor: pointer;
+    font-family: consolas;
+  }
+
+#back {
+    margin: 0;
+    padding: 0;
+}
+
+#back a {
+    padding: 20px 20px;
+    margin: 40px 25px;
+    position: absolute;
+    font-size: 14px;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+  }
+  
+#back a:hover {
+    box-shadow: 0 0 5px #03e9f4, 0 0 20px #03e9f4, 0 0 40px #03e9f4;
+}
+
+.peer {
+    display: inline-block;
+}
+
+.panel {
+    position: fixed;
+    bottom: 52px;
+    left: calc(50vw - 100px);
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
+
+.bt {
+    padding: 1px 5px;
+    background: #031321;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    box-shadow: 0 0 25px #03e9f4, 0 0 10px #03e9f4;
+    transition-delay: 0.5s;
+}
+
+.menu {
+    margin: 40px 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cam-box {
+    overflow: auto;
+    height: 90vh;
+    padding: 10px;
+}
+
+.cam-box::-webkit-scrollbar {
+    width: 1em;
+}
+.cam-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d63384;
+}
+
+.cam-box::-webkit-scrollbar-thumb {
+    background-color: #03e9f4;
+    outline: 1px solid #031321;
+}
